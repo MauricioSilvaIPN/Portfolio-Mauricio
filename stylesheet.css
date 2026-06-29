@@ -190,6 +190,28 @@
     margin-right: 10px;
 }
 
+/* Projects */
+
+#projects-container{
+    display: flex;
+    flex: wrap;
+    margin-top: 25px;
+}
+
+#project-box{
+    flex: 1 1 33%;
+    max-width: 33%;
+    margin-bottom: 35px;
+}
+
+#projects-title{
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+
 /* Mobile */
 
 @media(max-width: 450px){
