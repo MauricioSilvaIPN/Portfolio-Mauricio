@@ -195,10 +195,21 @@
 #projects-container{
     display: flex;
     flex: wrap;
-    margin-top: 25px;    
+    margin-top: 25px; 
+    transition: 0.5s;  
+}
+
+#btn-source{
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.project-box:hover{
+    transform: scaleY(1.1);
 }
 
 .project-box{
+    transition: 0.5s;
     flex: 1 1 33%;
     max-width: 33%;
     margin-bottom: 35px;
@@ -212,6 +223,7 @@
 #project-img{
     width: 300px;
     height: 250px;
+    margin-top: 10px;
     border-radius: 15px;
 }
 
@@ -227,6 +239,7 @@
     flex: wrap;
     flex: 1 1 33%;
     max-width: 33%;
+    margin-bottom: 15px;
 }
 
 #ability-title{
@@ -252,7 +265,7 @@
         border-bottom: var(--bio-border-color);
     }
 
-    #bion-container h2{
+    #bio-container h2{
         display: none;
     }
 
@@ -271,6 +284,18 @@
         max-width: 100%;
         line-height: 26px;
     }
+
+    /* #projects-container{
+        text-align: center;
+        display: block;
+        padding: 30px;
+    }
+
+    #project-box{
+        max-width: 10%;
+        width: auto;
+        height: auto;
+    } */
 
     #btn-project{
         margin: 20px auto;
